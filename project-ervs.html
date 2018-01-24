@@ -6,27 +6,35 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
     <!-- Bootstrap CSS -->
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.3/css/bootstrap.min.css" integrity="sha384-Zug+QiDoJOrZ5t4lssLdxGhVrurbmBWopoEl+M6BdEfwnCJZtKxi1KgxUyJq13dy" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha256-LA89z+k9fjgMKQ/kq4OO2Mrf8VltYml/VES+Rg0fh20=" crossorigin="anonymous" />
 
     <link href="https://fonts.googleapis.com/css?family=Abel" rel="stylesheet">
+    
     <link rel="stylesheet" href="https://use.typekit.net/uis5cdy.css">
 
+   
+    
+    
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.2.0/aos.css" integrity="sha256-G2+IcX6XRBcYufvUNrCqZdR1PDbJkBU164G3zkt2C8Q=" crossorigin="anonymous" />
 
-    <title>Courtney Menu - Interior Designer in Brooklyn, NY</title>
+
+    <title>Courtney Menu - Erv's</title>
 
     <style type="text/css">
 
       body {
-        
+        border: none !important;
+        background-color: #CFD7DA;
       }
+
+
 
       h1 {
         color: #111;
         font-family: "Abel";
         font-weight: normal;
         text-transform: uppercase;
-        font-size: 150px;
-       
+        font-size: 4rem;
         line-height: 0.8;
         
       }
@@ -42,9 +50,55 @@
         
       }
 
-      p, li {
-        color: #CFD7DA;
+      h3 {
+        font-family: "Abel";
+        text-transform: uppercase;
+        color: #111;
+        font-size: 3rem;
+        line-height: 0.9;
+        margin-bottom: 0.3em;
       }
+
+      p, li {
+        color: #111;
+        font-size: 20px;
+       font-family: "basic-sans",sans-serif;
+        font-weight: 500;
+        
+      }
+
+
+      @media (min-width: 768px) {
+
+        body {
+          border: 20px solid #fff;
+        }
+
+        h1 {
+          font-size: 8rem;
+        }
+
+        h2 {
+
+        }
+
+        h3 {
+          font-size: 4rem;
+        }
+     
+      }
+
+     
+
+      .white-bg p {
+        color: #111;
+      }
+
+      .white-bg h3 {
+        color: #111;
+      }
+
+
 
       .navigation {
         padding-top: 20px;
@@ -59,10 +113,75 @@
       }
 
       .body-padding {
-        border: 20px solid #fff;
-        background-image: url(https://www.toptal.com/designers/subtlepatterns/patterns/hypnotize.png);background-repeat: repeat;
         height: 100vh;
       }
+
+      .animated {
+        -webkit-animation-duration: 0.7s;
+animation-duration: 0.7s;
+-webkit-animation-fill-mode: both;
+animation-fill-mode: both
+      }
+
+      .text-block {
+        background-color: #F03B7B;
+        padding: 30px;
+      }
+
+      .project-section {
+        margin-top: 45px;
+        margin-bottom: 45px;
+      }
+
+      .img-right-1,
+      .img-right-2,
+      .img-right-3 {
+        padding-top: 45px;
+      }
+
+
+
+      @media (min-width: 768px) {
+        .text-block {
+          padding: 60px;
+        }
+
+        .text-block.margin-up {
+          margin-top: -100px;
+        }
+
+        .text-block.margin-left {
+          margin-left: -100px; 
+          margin-top: 50px; 
+        }
+
+        .project-section {
+          margin-top: 100px;
+          margin-bottom: 100px;
+        }
+
+        .img-left-1 {
+          margin-left: 100px; 
+          margin-right:-200px;
+        }
+
+        .img-right-1 {
+          padding-top: 200px;
+        }
+
+        .img-left-2 {
+          margin-right: -130px; 
+          padding-top: 100px; 
+          z-index: 2;
+        } 
+
+        .img-right-3 {
+          padding-top: 100px;
+
+        }
+
+      }
+
 
     </style>
   
@@ -70,35 +189,205 @@
   <body>
 
 
-    <div class="body-padding">
+    
 
 
-      <div class="container-fluid">
+<div class="container-fluid">
 
-        <div class="row" style="background-image: url('http://courtneymenu.com/img/2018-CourtneyMenu-Project-Ervs-Hero-001.jpg'); background-size: cover; height:95vh; background-position: center;">
+  <div class="row" style="background-image: url('http://courtneymenu.com/img/2018-CourtneyMenu-Project-Ervs-Hero-001.jpg') !important; background-size: cover; height:100vh; background-position: center;">
 
-            <div class="col-6 offset-1" style="padding-top: 70px;">
+      <div class="col-12 col-md-8 col-lg-6 offset-md-1" style="padding-top: 150px;">
 
-              <h1 style="color: #fff;">Erv's</h1>
+        <h1 style="color: #fff;" data-aos="fade-up">Erv's</h1>
 
-            </div>
-         
+      </div>
 
+  </div>
+
+</div>
+
+
+<div class="container project-section" data-aos="fade-up" data-aos-delay="100">
+
+  <div class="row">
+
+    <div class="col-12 col-md-10 offset-md-2 aos-init">
+
+      <img class="img-fluid center" src="https://raw.githubusercontent.com/courtneymenu/courtneymenu.github.io/master/img/2018-CourtneyMenu-Project-BrooklynHighRise-About-001.jpg" />
+
+    </div>
+
+    <div class="col-12 col-md-8 offset-md-3">
+
+      <div class="text-block margin-up">
+
+        <h3>About the Project</h3>
+
+        <p>Erv's was a small cocktail bar and coffee shop in the Prospect Lefferts Garden neighborhood in Brooklyn looking to expand. The adjacent laundromat was demolished, quadrupling the maxium occupancy, and allowing for the addition of a dual-use pop-up kitchen and coffee bar as well as an expansion and redesign of and edgy, but unpretentious, cocktail bar.</p>
+
+      </div>
+
+    </div>
+
+  </div>
+
+</div>
+
+ 
+
+
+<div class="container-fluid project-section">
+
+  <div class="row">
+
+    <div class="col-12 col-lg-7 img-left-1" data-aos="fade-up" data-aos-delay="200">
+
+      <img class="img-fluid" src="https://raw.githubusercontent.com/courtneymenu/courtneymenu.github.io/master/img/2018-CourtneyMenu-Project-BrooklynHighRise-004.jpg" />
+
+    </div>
+
+    <div class="col-12 col-lg-5 img-right-1" data-aos="fade-up" data-aos-delay="600">
+
+      <img class="img-fluid" src="https://raw.githubusercontent.com/courtneymenu/courtneymenu.github.io/master/img/2018-CourtneyMenu-Project-BrooklynHighRise-005.jpg" />
+
+    </div>
+
+  </div>
+
+</div>
+
+<div class="container project-section">
+
+  <div class="row">
+
+    <div class="col-12 col-lg-7" data-aos="fade-up" data-aos-delay="200">
+
+      <img class="img-fluid" src="https://raw.githubusercontent.com/courtneymenu/courtneymenu.github.io/master/img/2018-CourtneyMenu-Project-BrooklynHighRise-MyRole-001.jpg" />
+
+    </div>
+
+    <div class="col-12 col-lg-5" data-aos="fade-up" data-aos-delay="500">
+
+      <div class="text-block margin-left">
+
+        <h3>My Role</h3>
+
+        <p>I was asked to work with the owner, architect, contractor, and the general manager of the existing bar to redesign the newly enlarged space. I conducted zoning and circulation studies and developed a plan to accommodate the variety of functions that the new larger space wanted to include. I layered in a new lighting plan to provide flexibility for use both in the daytime and at night and for both a functional kitchen space and bar.</p> 
+
+        <p>I sourced all fixtures and finishes throughout, such as the decorative lighting and seating to the back bar equipment, and managed the budget and lead times. Additionally, I detailed out all of the custom millwork to communicate efficiently with the subcontractors and different vendors consulting on the project. </p>
+
+      </div>
+
+    </div>
+
+  </div>
+
+</div>
+
+
+<div class="container">
+
+  <div class="row">
+
+    <div class="col-12 col-lg-6 img-left-2" data-aos="fade-up" data-aos-delay="400">
+
+      <img class="img-fluid" src="https://raw.githubusercontent.com/courtneymenu/courtneymenu.github.io/master/img/2018-CourtneyMenu-Project-BrooklynHighRise-008.jpg" />
+
+    </div>
+
+    <div class="col-12 col-lg-6 img-right-2" data-aos="fade-up" data-aos-delay="200">
+
+      <img class="img-fluid" src="https://raw.githubusercontent.com/courtneymenu/courtneymenu.github.io/master/img/2018-CourtneyMenu-Project-BrooklynHighRise-009.jpg" />
+
+    </div>
+
+  </div>
+
+</div>
+
+
+
+<div class="text-block project-section">
+
+  <div class="container">
+
+    <div class="row">
+
+      <div class="col-12">
+
+        <h3>Project Challenges</h3>
+
+      </div>
+
+    </div>
+
+    <div class="row">
+
+      <div class="col-12 col-md-6" style="padding-right:30px;" >
+
+        <p>We were ambitious in our aspirations for Erv’s. Although the square footage was more than tripling from the original footprint of the tiny cocktail bar, it was challenging to find ways to implement all of the personalities that the owners had envisioned for the establishment. Finding a way to balance the daytime personality of homey and welcoming atmosphere for workers and meetups with the night time personality of interesting and unpretentious local hangout with an edge.</p> 
+
+        <p>Additionally it needed a section that was able to be closed off for private events and rentals. I worked closely with the staff the owner and his investors to streamline how they wanted to actually see the front of house and back of house function in all of these different ways. </p>
+
+      </div>
+
+      <div class="col-12 col-md-6">
+
+        <p>I also had to design a kitchen layout and equipment for a kitchen that was not conceived of yet - meaning no chef or type of food were chosen and it needed to function for a wide range of options and ways of cooking. I also worked closely with all the bartenders to understand what they needed to work efficiently, comfortably, and safely.</p> 
+
+        <p> The small cocktail bar has a large and consistent local crowd and is well known within the neighbourhood. It was important not to alienate the existing loyal customer base while also expanding its appeal and reach. What the owners wanted was a relatable space that wasn’t “over designed” or exclusive. It called for a DIY feel and a balance between high concept and relatability.</p>
+
+      </div>
+
+    </div>
+
+  </div>
+
+</div>
+
+
+<div class="container project-section">
+
+  <div class="row">
+
+    <div class="col-12 col-lg-5 img-left-3" data-aos="fade-up" data-aos-delay="200">
+
+          <img class="img-fluid" src="https://raw.githubusercontent.com/courtneymenu/courtneymenu.github.io/master/img/2018-CourtneyMenu-Project-BrooklynHighRise-006.jpg" />
+
+    </div>
+
+    <div class="col-12 col-lg-7 img-right-3" data-aos="fade-up" data-aos-delay="600">
+
+          <img class="img-fluid" src="https://raw.githubusercontent.com/courtneymenu/courtneymenu.github.io/master/img/2018-CourtneyMenu-Project-BrooklynHighRise-007.jpg" />
+
+           
 
         </div>
-
 
       </div>
 
 
 
 
+    </div>
+
+
+    
+
 
 
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
-    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.3/js/bootstrap.min.js" integrity="sha384-a5N7Y/aK3qNeh15eJKGWxsqtnX/wWdSZSKp+81YjTmS15nvnvxKHuzaWwXHDli+4" crossorigin="anonymous"></script>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.slim.min.js" integrity="sha256-3edrmyuQ0w65f8gfBsqowzjJe2iM6n0nKciPUp8y+7E=" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.13.0/esm/popper.min.js" integrity="sha256-tWDaEmVqcf3+EBjNCtfZSFaWGT++lmVJH9KY64BJU+U=" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha256-5+02zu5UULQkO7w1GIr6vftCgMfFdZcAHeDtFnKZsBs=" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.2.0/aos.js" integrity="sha256-issEYoOUmTZW2tEfIwKfxq0Tz5DPqh9d+JFQsnJ2hKk=" crossorigin="anonymous"></script>
+
+ <script>
+    AOS.init({
+      duration: 2000,
+    });
+  </script>
   </body>
 </html>
