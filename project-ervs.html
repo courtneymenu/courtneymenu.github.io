@@ -25,6 +25,7 @@
       body {
         border: none !important;
         background-color: #CFD7DA;
+      
       }
 
 
@@ -63,7 +64,7 @@
         color: #111;
         font-size: 20px;
        font-family: "basic-sans",sans-serif;
-        font-weight: 500;
+        font-weight: 300;
         
       }
 
@@ -88,29 +89,28 @@
      
       }
 
+      
+
+      .navbar a {
+        font-weight: 300;
+        font-size: 17px;
+        padding: 0 2rem
+        
+      }
+
+      .navbar a:link,
+      .navbar a:visited {
+        color: #fff;
+      }
+
+      .navbar a:hover {
+        text-decoration: underline;
+        color: #eee;
+      }
+
+
+
      
-
-      .white-bg p {
-        color: #111;
-      }
-
-      .white-bg h3 {
-        color: #111;
-      }
-
-
-
-      .navigation {
-        padding-top: 20px;
-      }
-
-      .navigation a {
-        font-weight: 700;
-        padding: 10px ;
-        text-transform: uppercase;
-        font-size: 20px;
-        font-family: "Proxima Nova";
-      }
 
       .body-padding {
         height: 100vh;
@@ -144,6 +144,12 @@ animation-fill-mode: both
 
 
       @media (min-width: 768px) {
+
+        .navbar {
+          padding-top: 20px;
+          padding-bottom: 20px;
+        }
+
         .text-block {
           padding: 60px;
         }
@@ -191,14 +197,41 @@ animation-fill-mode: both
   <body>
 
 
-    
+ <nav class="navbar navbar-dark fixed-top navbar-expand-lg">
+  
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+  <div class="collapse navbar-collapse justify-content-center" id="navbarNavDropdown">
+    <ul class="nav">
+      <li class="nav-item active">
+        <a class="nav-link" href="https://courtneymenu.com">Courntey Menu</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#">Projects</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#">About</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#">Contact</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#">CV</a>
+      </li>
+    </ul>
+  </div>
+ 
+</nav>   
+
+
 
 
 <div class="container-fluid">
 
   <div class="row" style="background-image: url('http://courtneymenu.com/img/2018-CourtneyMenu-Project-Ervs-Hero-001.jpg') !important; background-size: cover; height:100vh; background-position: center;">
 
-      <div class="col-12 col-md-8 col-lg-6 offset-md-1" style="padding-top: 150px;">
+      <div class="col-12 col-md-8 col-lg-6 offset-md-1" style="padding-top: 200px;">
 
         <h1 style="color: #fff; " data-aos="fade-up">Erv's</h1>
 
@@ -383,7 +416,7 @@ animation-fill-mode: both
 
  <script>
     AOS.init({
-      duration: 700,
+      duration: 600,
     });
   </script>
   </body>
