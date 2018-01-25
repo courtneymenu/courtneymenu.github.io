@@ -12,6 +12,12 @@
     <link rel="stylesheet" href="https://use.typekit.net/uis5cdy.css">
 
 
+   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
+
+
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.2.0/aos.css" integrity="sha256-G2+IcX6XRBcYufvUNrCqZdR1PDbJkBU164G3zkt2C8Q=" crossorigin="anonymous" />
+
+
     <title>Courtney Menu - Interior Designer in Brooklyn, NY</title>
 
     <style type="text/css">
@@ -32,10 +38,10 @@
       }
 
       h2 {
-        color: #233451;
+        color: #111;
         font-family: "basic-sans",sans-serif;
-        text-transform: uppercase;
-        font-weight: 600;
+        
+        font-weight: 400;
         font-size: 24px;
         padding-top: 20px;
         padding-left: 10px;
@@ -46,6 +52,35 @@
         color: #CFD7DA;
       }
 
+
+
+      .navbar a {
+        font-weight: 300;
+        font-size: 17px;
+        padding: 0 2rem
+        
+      }
+
+      .navbar a:link,
+      .navbar a:visited {
+        color: #111;
+      }
+
+      .navbar a:hover {
+        text-decoration: underline;
+        color: #222;
+      }
+
+
+       @media (min-width: 768px) {
+
+        .navbar {
+          padding-top: 40px;
+          padding-bottom: 20px;
+        }
+
+      }
+
      
 
     </style>
@@ -54,29 +89,54 @@
   <body>
 
 
-    <div class="container-fluid" style=" background-color: #f7dddc;  background-repeat: repeat; height: 100vh; border: 20px solid #fff;">
+
+ <nav class="navbar navbar-dark fixed-top navbar-expand-lg">
+  
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+  <div class="collapse navbar-collapse justify-content-center" id="navbarNavDropdown">
+    <ul class="nav">
+      <li class="nav-item active">
+        <a class="nav-link" href="https://courtneymenu.com">Courntey Menu</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#">Projects</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#">About</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#">Contact</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#">CV</a>
+      </li>
+    </ul>
+  </div>
+ 
+</nav>   
+
+
+
+    <div class="container-fluid" style=" background-color: #f7dddc;  background-repeat: repeat; height: 100vh; min-height: 100vh; border: 20px solid #fff;">
 
      
 
      
 
-      <div class="row" style="position: relative; padding-top: 100px;">
+      <div class="row align-items-center" style="height:100%;">
 
 
 
-        <div class="col-6 offset-5" style="float: right;  z-index: 1;">
-      
+       
 
-          <img class="img-fluid" style="" src="http://courtneymenu.com/img/2018-CourtneyMenu-Headshot-002.jpg?raw=true" />
-      
-        </div>
+        <div class="col-10 offset-1" style="" data-aos="fade-up">
 
-        <div class="col-5 offset-1" style="position: absolute; left: 0; z-index: 2; padding-top: 60px; ">
+          <h1>Courtney<br /> Menu</h1>
+          <h2 style="padding-top: 20px;">Interior Designer <i style="font-size: 6px; line-height: 30px; vertical-align: middle; padding: 0 5px;" class="fa fa-circle" aria-hidden="true"></i> Brooklyn, NY</h2>
 
-          <h1>Courtney Menu</h1>
-
-          <h2>Interior Designer<br /> based in Brooklyn, NY</h2>
-
+          
         </div>
 
         
@@ -127,5 +187,12 @@
     <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.3/js/bootstrap.min.js" integrity="sha384-a5N7Y/aK3qNeh15eJKGWxsqtnX/wWdSZSKp+81YjTmS15nvnvxKHuzaWwXHDli+4" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.2.0/aos.js" integrity="sha256-issEYoOUmTZW2tEfIwKfxq0Tz5DPqh9d+JFQsnJ2hKk=" crossorigin="anonymous"></script>
+
+ <script>
+    AOS.init({
+      duration: 600,
+    });
+  </script>
   </body>
 </html>
