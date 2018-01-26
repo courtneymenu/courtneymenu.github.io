@@ -108,10 +108,21 @@
         color: #eee !important;
       }
 
+      .navbar .navbar-collapse.show li.nav-item {
+        display: block;
+        width: 100%;
+        padding: 15px 0;
+      }
+
+      .navbar-collapse.collapse.show {
+        background-color: rgba(0,0,0,0.8) !important;
+      } 
+
       .text-block a {
         color: #111;
         text-decoration: underline;
       }
+
 
 
 
@@ -179,6 +190,10 @@ animation-fill-mode: both
           margin-right:-200px;
         }
 
+        .img-left-1-2 {
+          margin-top: -100px; margin-left: 45px; width: 65%;
+        }
+
         .img-right-1 {
           padding-top: 200px;
         }
@@ -203,13 +218,11 @@ animation-fill-mode: both
   <body>
 
 
- <nav class="navbar navbar-dark fixed-top navbar-expand-lg">
+ <nav class="navbar navbar-dark fixed-top navbar-expand-lg justify-content-center">
   
-  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
-    <span class="navbar-toggler-icon"></span>
-  </button>
-  <div class="collapse navbar-collapse justify-content-center" id="navbarNavDropdown">
-    <ul class="nav">
+
+  <div class="justify-content-center" id="navbarNavDropdown">
+    <ul class="nav ">
       <li class="nav-item">
         <a class="nav-link" href="https://courtneymenu.com/">Courtney Menu</a>
       </li>
@@ -217,10 +230,10 @@ animation-fill-mode: both
         <a class="nav-link" href="https://courtneymenu.com/projects.html">Projects</a>
       </li>
       <li class="nav-item">
-        <a class="nav-link" href="#">About</a>
+        <a class="nav-link" href="https://courtneymenu.com/about.html">About</a>
       </li>
       <li class="nav-item">
-        <a class="nav-link" href="#">Contact</a>
+        <a class="nav-link" href="https://courtneymenu.com/contact.html">Contact</a>
       </li>
       <li class="nav-item">
         <a class="nav-link" href="#">CV</a>
@@ -281,11 +294,11 @@ animation-fill-mode: both
 
   <div class="row">
 
-    <div class="col-12 col-lg-7 img-left-1" data-aos="fade-up" data-aos-delay="200">
+    <div class="col-12 col-lg-7 " data-aos="fade-up" data-aos-delay="200">
 
-      <img class="img-fluid" src="https://raw.githubusercontent.com/courtneymenu/courtneymenu.github.io/master/img/2018-CourtneyMenu-Ervs-002.jpg" />
+      <img class="img-fluid img-left-1" src="https://raw.githubusercontent.com/courtneymenu/courtneymenu.github.io/master/img/2018-CourtneyMenu-Ervs-002.jpg" />
 
-       <img style="margin-top: -100px; margin-left: 45px; width: 70%;" class="img-fluid" src="https://raw.githubusercontent.com/courtneymenu/courtneymenu.github.io/master/img/2018-CourtneyMenu-Ervs-005.jpg" />
+       <img class="img-left-1-2 img-fluid" src="https://raw.githubusercontent.com/courtneymenu/courtneymenu.github.io/master/img/2018-CourtneyMenu-Ervs-005.jpg" />
 
 
     </div>
