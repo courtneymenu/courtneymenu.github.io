@@ -17,16 +17,7 @@
         line-height: 0.9;
       }
 
-      .project h1 {
-        color: #fafafa;
-      }
-
-      .project h1:hover {
-        text-decoration: underline;
-        text-decoration-line: 3px;
-        text-decoration-style: solid;
-        text-decoration-color: #fff;
-      }
+      
 
       h2 {
         color: #111;
@@ -75,6 +66,17 @@
       a:link, a:visited, a:hover {
         color: #111;
       }
+
+      .project h1 {
+        color: #fafafa;
+      }
+
+      .project a h1:hover {
+        text-decoration: underline;
+        text-decoration-line: 3px;
+        text-decoration-style: solid;
+        text-decoration-color: #fff;
+      }
       
       .fa {
         font-size: 30px;
@@ -102,6 +104,16 @@
       }
 
       .navbar a:hover {
+        text-decoration: underline;
+        color: #222;
+      }
+
+      .project .navbar a:link,
+      .project .navbar a:visited {
+        color: #111;
+      }
+
+      .project .navbar a:hover {
         text-decoration: underline;
         color: #222;
       }
