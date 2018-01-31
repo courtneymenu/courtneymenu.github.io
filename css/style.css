@@ -3,6 +3,11 @@
         border: 20px solid #fff;
       }
 
+      body.project {
+        background-color: #fff;
+        border: none !important;
+      }
+
       h1 {
         color: #111;
         font-family: "Abel";
@@ -293,27 +298,27 @@
         padding-bottom: 20px;
       }
 
-        .text-block {
-            padding: 60px;
-          }
-
-        .text-block.margin-up {
-          margin-top: -100px;
+      .text-block {
+          padding: 60px;
         }
 
-        .text-block.margin-left {
-          margin-left: -100px; 
-          margin-top: 50px; 
-        }
-
-        .project-section {
-          margin-top: 100px;
-          margin-bottom: 100px;
-        }
-
-
-
+      .text-block.margin-up {
+        margin-top: -100px;
       }
+
+      .text-block.margin-left {
+        margin-left: -100px; 
+        margin-top: 50px; 
+      }
+
+      .project-section {
+        margin-top: 100px;
+        margin-bottom: 100px;
+      }
+
+
+
+    }
 
 
 
