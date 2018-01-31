@@ -71,6 +71,7 @@
         color: #fafafa;
       }
 
+      .project a:hover,
       .project a h1:hover {
         text-decoration: underline;
         text-decoration-line: 3px;
@@ -110,12 +111,12 @@
 
       .project .navbar a:link,
       .project .navbar a:visited {
-        color: #111;
+        color: #fff;
       }
 
       .project .navbar a:hover {
         text-decoration: underline;
-        color: #222;
+        color: #fafafa;
       }
 
       .row a {
