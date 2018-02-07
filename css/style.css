@@ -84,6 +84,11 @@
         padding-right: 15px;
       }
 
+      .row a {
+        color: #111;
+        text-decoration: underline;
+      }
+
       .navbar {
         padding: 45px 30px;
       }
@@ -119,10 +124,7 @@
         color: #fafafa;
       }
 
-      .row a {
-        color: #111;
-        text-decoration: underline;
-      }
+      
 
       ul.details {
         list-style: none;
